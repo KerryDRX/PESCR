@@ -1,32 +1,34 @@
 <div align="center">
 
-  # ESCORT: Prompt-Based Exemplar Super-Compression and Regeneration for Class-Incremental Learning 
+  # PESCR: Prompt-Based Exemplar Super-Compression and Regeneration for Class-Incremental Learning
 
-  <img src="docs/teaser.png">
+  <img src="docs/teaser.jpg">
 
 </div>
 
 
 ## Overview
 
-Class-incremental learning (CIL) with _**E**xemplar **S**uper-**CO**mpression and **R**egeneration based on promp**T**s_ (ESCORT), a diffusion-based approach that boosts CIL performance by storing exemplars with increased quantity and enhanced diversity under limited memory budget. ESCORT works by
+Class-incremental learning (CIL) with _**P**rompt-Based **E**xemplar **S**uper-**C**ompression and **R**egeneration_ (PESCR), a diffusion-based approach that boosts CIL performance by storing exemplars with increased quantity and enhanced diversity under limited memory budget. PESCR works by
 - extracting visual and textual prompts from selected images and saving prompts instead of images
 - regenerating exemplars from prompts with ControlNet for CIL model training in subsequent phases
 
 ## Paper
-Official implementation of 
+Official implementation of
 
-<b>Prompt-Based Exemplar Super-Compression and Regeneration for Class-Incremental Learning</b>
+<b>Prompt-Based Exemplar Super-Compression and Regeneration for Class-Incremental Learning</b> [BMVC 2025]
 <br/>
 [Ruxiao Duan](https://scholar.google.com/citations?hl=en&user=aG-fi1cAAAAJ)<sup>1</sup>,
-[Yaoyao Liu](https://scholar.google.com/citations?hl=en&user=Uf9GqRsAAAAJ)<sup>1</sup>,
-[Jieneng Chen](https://scholar.google.com/citations?hl=en&user=yLYj88sAAAAJ)<sup>1</sup>,
-[Adam Kortylewski](https://scholar.google.com/citations?hl=en&user=tRLUOBIAAAAJ)<sup>2,3</sup>,
-[Alan Yuille](https://scholar.google.com/citations?hl=en&user=FJ-huxgAAAAJ)<sup>1</sup>,
+[Jieneng Chen](https://scholar.google.com/citations?hl=en&user=yLYj88sAAAAJ)<sup>2</sup>,
+[Adam Kortylewski](https://scholar.google.com/citations?hl=en&user=tRLUOBIAAAAJ)<sup>3,4</sup>,
+[Alan Yuille](https://scholar.google.com/citations?hl=en&user=FJ-huxgAAAAJ)<sup>2</sup>,
+[Yaoyao Liu](https://scholar.google.com/citations?hl=en&user=Uf9GqRsAAAAJ)<sup>5</sup>,
 <br/>
-<sup>1</sup>Johns Hopkins University,
-<sup>2</sup>University of Freiburg,
-<sup>3</sup>Max Planck Institute for Informatics
+<sup>1</sup>Yale University,
+<sup>2</sup>Johns Hopkins University,
+<sup>3</sup>University of Freiburg,
+<sup>4</sup>Max Planck Institute for Informatics,
+<sup>5</sup>University of Illinois Urbana-Champaign
 
 ## Getting Started
 
@@ -88,4 +90,3 @@ python main.py
 ## Acknowledgement
 
 The CIL framework is developed based on [PyCIL](https://github.com/G-U-N/PyCIL).
-

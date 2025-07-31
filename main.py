@@ -16,7 +16,7 @@ def load_json(settings_path):
     return param
 
 def setup_parser():
-    parser = argparse.ArgumentParser(description='Class-incremental learning with ESCORT.')
+    parser = argparse.ArgumentParser(description='Class-incremental learning with PESCR.')
     parser.add_argument('--config', type=str, default='./exps/config.json', help='Json file of settings.')
     return parser
 
