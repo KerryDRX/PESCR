@@ -18,11 +18,11 @@ Official implementation of
 
 <b>Prompt-Based Exemplar Super-Compression and Regeneration for Class-Incremental Learning</b> [BMVC 2025]
 <br/>
-[Ruxiao Duan](https://scholar.google.com/citations?hl=en&user=aG-fi1cAAAAJ)<sup>1</sup>,
+[Ruxiao Duan](https://scholar.google.com/citations?hl=en&user=QHxJoWEAAAAJ)<sup>1</sup>,
 [Jieneng Chen](https://scholar.google.com/citations?hl=en&user=yLYj88sAAAAJ)<sup>2</sup>,
 [Adam Kortylewski](https://scholar.google.com/citations?hl=en&user=tRLUOBIAAAAJ)<sup>3,4</sup>,
 [Alan Yuille](https://scholar.google.com/citations?hl=en&user=FJ-huxgAAAAJ)<sup>2</sup>,
-[Yaoyao Liu](https://scholar.google.com/citations?hl=en&user=Uf9GqRsAAAAJ)<sup>5</sup>,
+[Yaoyao Liu](https://scholar.google.com/citations?hl=en&user=Qi2PSmEAAAAJ)<sup>5</sup>,
 <br/>
 <sup>1</sup>Yale University,
 <sup>2</sup>Johns Hopkins University,
